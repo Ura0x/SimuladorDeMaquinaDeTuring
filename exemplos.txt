@@ -1,0 +1,284 @@
+#X-Y
+\,1,-,X,Y,>,b
+q0,q0 1 R,q1 - R,q0 X R, ,q0 > R,
+q1,q2 Y L, , ,q1 Y R, ,q4 b L
+q2, ,q3 - L, ,q2 Y L, , 
+q3,q0 X R, ,q3 X L, , ,
+q4,q5 1 P,q4 b L,q4 b L,q4 b L, ,
+
+
+#2X-5
+ ,1,X,>,b
+q0,q0 X R, ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R,q3 > R,
+q2,q2 1 R, , ,q1 1 L
+q3,q3 1 R, , ,q4 1 R
+q4, , , ,q5 1 R
+q5, , , ,q6 1 R
+q6, , , ,q7 1 R
+q7, , , ,q8 1 P
+
+
+#4(2X+2)
+ ,1,X,>,b
+q0,q0 X R, ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R,q3 > R,
+q2,q2 1 R, , ,q1 1 L
+q3,q3 1 R, , ,q4 1 R
+q4, , , ,q5 1 L
+q5,q5 1 L, ,q6 > R,
+q6,q6 X R, , ,q7 b L
+q7,q7 1 L,q8 1 R,q12 > P,
+q8,q8 1 R, , ,q9 1 R
+q9, , , ,q10 1 R
+q10, , , ,q7 1 L
+
+
+
+#3x/4
+ ,1,X,Y,>,b
+q0,q0 X R, , ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R, ,q4 > R, 
+q2,q2 1 R, , , ,q3 1 R
+q3, , , , ,q1 1 L
+q4,q5 X R, ,q10 Y R, ,
+q5,q5 1 R, ,q6 Y L, ,q6 b L
+q6,q7 Y L, , , ,
+q7,q8 Y L, , , ,
+q8,q9 y L, , , ,
+q9,q9 1 L,q4 X R, , ,
+q10, , ,q10 Y R, ,q11 b L
+q11, ,q11 1 L,q11 b L,q12 > P,
+
+
+#3(3X-4)
+ ,1,X,>,b
+q0,q0 X R, ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R,q4 > R,
+q2,q2 1 R, , ,q3 1 R
+q3, , , ,q1 1 L
+q4,q4 1 R, , ,q5 b L
+q5,q6 b L, , ,
+q6,q7 b L, , ,
+q7,q8 b L, , ,
+q8,q9 b L, , ,
+q9,q9 1 L, ,q10 > R,
+q10,q10 X R, , ,q11 b L
+q11,q11 1 L,q12 1 R,q14 > P,
+q12,q12 1 R, , ,q13 1 R
+q13, , , ,q11 1 L
+
+
+
+#(X-8)/2
+ ,1,X,Y,>,b
+q0,q0 1 R, , ,q0 > R,q1 b L
+q1,q2 b L, , , ,
+q2,q3 b L, , , ,
+q3,q4 b L, , , ,
+q4,q5 b L, , , ,
+q5,q6 b L, , , ,
+q6,q7 b L, , , ,
+q7,q8 b L, , , ,
+q8,q9 b L, , , ,
+q9,q9 1 L, , ,q10 > R,
+q10,q11 X R, ,q14 Y R, ,
+q11,q11 1 R, ,q12 Y L, ,q12 b L
+q12,q13 Y L, , , ,
+q13,q13 1 L,q10 X R, , ,
+q14, , ,q14 Y R, ,q15 b L
+q15, ,q15 1 L,q15 b L,q16 > P,
+
+
+#2(X-Y)
+ ,1,-,X,Y,>,b
+q0,q0 1 R,q1 - R,q0 X R,,q0 > R,
+q1,q2 Y L, , ,q1 Y R, ,q3 b L
+q2,q0 X R,q2 - L,q2 X L,q2 Y L, ,
+q3,q3 1 L,q3 b L,q3 b L,q3 b L,q4 > R,
+q4,q4 X R, , , , ,q5 b L
+q5,q5 1 L, ,q6 1 R, ,q7 > P,
+q6,q6 1 R, , , , ,q5 1 L
+
+
+
+#4(X-2)+1-X
+ ,1,X,Y,Z,>,b
+q0,q0 1 R, , , ,q0 > R,q1 b L
+q1,q2 Z L, , , , ,
+q2,q3 Z L, , , , ,
+q3,q3 1 L, , , ,q4 > R,
+q4,q4 X R, , ,q5 Z L, ,
+q5,q5 1 L,q6 Y R,q5 Y L,q5 Z L,q9 > R,
+q6,q6 1 R, ,q6 Y R,q6 Z R, ,q7 1 R
+q7, , , , , ,q8 1 R
+q8, , , , , ,q5 1 L
+q9,q9 1 R, ,q9 Y R,q9 Z R, ,q10 1 L
+q10,q10 1 L, ,q14 1 R,q11 1 R,q15 > P,
+q11,q11 1 R, , , , ,q12 b L
+q12,q13 b L, , , , ,
+q13,q10 b L, , , , ,
+q14,q14 1 R, , , , ,q13 b L
+
+
+
+#5X-2+1-2X
+ ,1,X,Y,>,b
+q0,q0 X R, , ,q0 > R,q1 b L
+q1,q1 1 L,q2 Y R,q1 Y L,q6 > R,
+q2,q2 1 R, ,q2 Y R, ,q3 1 R
+q3, , , , ,q4 1 R
+q4, , , , ,q5 1 R
+q5, , , , ,q1 1 L
+q6,q6 1 R, ,q6 Y R, ,q7 b L
+q7,q8 b L, , , ,
+q8,q9 b L, , , ,
+q9,q10 1 R, , , ,
+q10, , , , ,q11 1 L
+q11,q11 1 L, ,q12 1 R,q15 > P,
+q12,q12 1 R, , , ,q13 b L
+q13,q14 b L, , , ,
+q14,q11 b L, , , ,
+
+
+#6X-3
+ ,1,X,>,b
+q0,q0 X R, ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R,q7 > R,
+q2,q2 1 R, , ,q3 1 R
+q3, , , ,q4 1 R
+q4, , , ,q5 1 R
+q5, , , ,q6 1 R
+q6, , , ,q1 1 L
+q7,q7 1 R, , ,q8 b L
+q8,q9 b L, , ,
+q9,q10 b L, , ,
+q10,q11 b P, , ,
+
+
+#4(X-3)+X
+ ,1,X,Y,Z,>,b
+q0,q0 1 R, , , ,q0 > R,q1 b L
+q1,q2 Y L, , , , ,
+q2,q3 Y L, , , , ,
+q3,q4 Y L, , , , ,
+q4,q4 1 L, , , ,q5 > R,
+q5,q5 X R, ,q6 Y L, , ,
+q6,q6 1 L,q7 Z R,q6 Y L,q6 Z L,q10 > R,
+q7,q7 1 R, ,q7 Y R,q7 Z R, ,q8 1 R
+q8, , , , , ,q9 1 R
+q9, , , , , ,q6 1 L
+q10,q11 1 L, ,q10 Y R,q10 Z R, ,
+q11,q11 1 L, ,q11 1 L,q12 1 R,q13 > P,
+q12,q12 1 R, , , , ,q11 1 L
+
+
+
+#(4X+3)/3
+ ,1,X,Y,>,b
+q0,q0 X R, , ,q0 > R,q1 b L
+q1,q1 1 L,q2 1 R, ,q5 > R,
+q2,q2 1 R, , , ,q3 1 R
+q3, , , , ,q4 1 R
+q4, , , , ,q1 1 L
+q5,q5 1 R, , , ,q6 1 R
+q6, , , , ,q7 1 R
+q7, , , , ,q8 1 L
+q8,q8 1 L,q9 X R, ,q9 > R,
+q9,q10 X R, ,q13 Y R,,
+q10,q10 1 R, ,q11 Y L, ,q11 b L
+q11,q12 Y L, , , ,
+q12,q8 Y L, , , ,
+q13, , ,q13 Y R, ,q14 b L
+q14, ,q14 1 L,q14 b L,q15 > P,
+
+
+#4(X-2)-1
+\,1,X,>,b
+q0,q0 1 R, ,q0 > R,q1 b L
+q1,q2 b L, , ,
+q2,q3 b L, , ,
+q3,q3 1 L, ,q4 > R,
+q4,q4 X R, , ,q5 b L
+q5,q5 1 L,q6 1 R, q9 > R,
+q6,q6 1 R, , ,q7 1 R
+q7, , , ,q8 1 R
+q8, , , ,q5 1 L
+q9,q9 1 R, , ,q10 b L
+q10,q11 b P, , ,
+
+
+#X²
+ ,1,X,Y,W,Z,>,b
+q0,q0 X R, , , , ,q0 > R,q1 b L
+q1,q1 1 L,q2 Y R,q1 Y L, , ,q7 > R,
+q2,q3 1 L, ,q2 Y R, , , ,q3 b L
+q3,q3 1 L,q4 W R,q4 Z R,q3 W L,q3 Z L,q5 > R,
+q4,q4 1 R, , ,q4 W R,q4 Z R, ,q3 1 L
+q5,q5 1 R, , ,q5 X R,q5 Y R, ,q6 b L
+q6,q1 b L, , , , , ,
+q7,q8 1 P, ,q7 1 R, , , ,q8 b P
+
+
+#X.Y
+\,1,.,X,Y,Z,H,>,b
+q0,q0 X R,q1 . R, , , , ,q0 > R,
+q1,q1 Y R,q1 . R, ,q1 Y R,q2 Z L,q1 X R, ,q2 b L
+q2, ,q5 . R , ,q3 Z L, , , ,
+q3,q3 1 L,q3 . L,q4 H R,q3 Y L,q3 Z L,q3 H L,q1 > R,
+q4,q4 1 R,q4 . R, ,q4 Y R,q4 Z R,q4 H R, ,q3 1 L
+q5,q6 1 L, , , ,q5 Z R, , ,
+q6,q6 1 L,q7 1 R,q7 1 R, ,q7 1 R, ,q9 > P,
+q7,q7 1 R, , , , , , ,q8 b L
+q8,q6 b L, , , , , , ,
+
+
+
+#X/Y
+ ,1,/,X,Y,Z,>,b
+q0,q0 1 R,q0 / R, , , ,q0 > R,q1 b L
+q1,q2 b L, , , , , ,
+q2,q2 1 L,q2 / L,q3 X R,q2 Y L,q2 Z L,q3 > R,
+q3,q4 X R, , ,q7 Y R, , ,
+q4,q4 1 R,q5 / R, ,q4 Y R, , ,
+q5,q6 Z L, , , ,q5 Z R, ,q2 b L
+q6,q4 Y R,q6 / L, ,q6 Y L,q6 Z L, ,
+q7, ,q7 / R, ,q7 Y R,q7 Z R, ,q8 b L
+q8, ,q8 b L,q8 1 L, ,q8 b L,q9 > P,
+
+
+
+
+#X!
+ ,1,X,Y,Z,H,K,>,b
+q0,q0 X R, , , , , ,q0 > R,q1 1 L
+q1, ,q2 Y R, ,q1 Y L, ,q1 1 L,q11 > R,
+q2,q2 H R, ,q2 Y R, , , , ,q3 b L
+q3, ,q7 X R,q4 Z R,q3 Z L,q3 H L,q3 H L,q7 > R,
+q4,q3 1 L, , ,q4 Z R,q5 K R,q4 K R, ,
+q5,q5 1 R, , , ,q5 H R, , ,q6 1 L
+q6,q6 1 L, , ,q4 Z R,q6 H L,q6 K L, ,
+q7,q1 1 L, , ,q7 Z R,q8 K R,q7 K R, ,q1 b L
+q8,q8 1 R, , , ,q8 H R, , ,q9 b L
+q9,q10 b L, , , , , , ,
+q10,q10 1 L, , ,q7 Z R,q10 H L,q10 K L, ,
+q11,q12 1 L, ,q11 Y R, ,q11 H R, , ,
+q12,q12 1 L, ,q13 1 R, ,q12 1 L, ,q15 > P,
+q13,q13 1 R, , , , , , ,q14 b L
+q14,q12 b L, , , , , , ,
+
+
+
+
+#fibonacci
+ ,1,A,X,Z,Y,>,b
+q0,q0 1 R, , , , ,q0 > R,q1 b L
+q1,q2 A R,q1 A L,q1 X L,q1 X L,q1 Y L,q6 > R,
+q2,q5 Y R,q2 A R,q3 Z R, ,q5 X R, ,q1 X L
+q3,q3 1 R, ,q3 X R, ,q3 Y R, ,q4 1 L
+q4,q4 1 L, ,q4 X L,q2 Z R,q4 Y L, ,
+q5,q5 Y R, , , ,q5 X R, ,q1 b L
+q6, ,q6 A R,q6 X R, ,q6 Y R, ,q7 b L
+q7,q7 1 L,q8 1 R,q7 1 L, ,q7 1 L,q10 > P,
+q8,q8 1 R, , , , , ,q9 b L
+q9,q7 b L, , , , , ,

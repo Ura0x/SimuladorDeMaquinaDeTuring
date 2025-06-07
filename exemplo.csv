@@ -1,0 +1,11 @@
+ ,1,A,X,Z,Y,>,b
+q0,q0 1 R, , , , ,q0 > R,q1 b L
+q1,q2 A R,q1 A L,q1 X L,q1 X L,q1 Y L,q6 > R,
+q2,q5 Y R,q2 A R,q3 Z R, ,q5 X R, ,q1 X L
+q3,q3 1 R, ,q3 X R, ,q3 Y R, ,q4 1 L
+q4,q4 1 L, ,q4 X L,q2 Z R,q4 Y L, ,
+q5,q5 Y R, , , ,q5 X R, ,q1 b L
+q6, ,q6 A R,q6 X R, ,q6 Y R, ,q7 b L
+q7,q7 1 L,q8 1 R,q7 1 L, ,q7 1 L,q10 > P,
+q8,q8 1 R, , , , , ,q9 b L
+q9,q7 b L, , , , , ,
